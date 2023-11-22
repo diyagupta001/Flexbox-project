@@ -111,3 +111,58 @@ body{
 .service_item p{
     text-align: center;
 }
+#row4{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}
+.portfolio-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.portfolio_top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portfolio_tittle{}
+.portfolio_tittle h3{}
+.portfolio_more{}
+.portfolio_more button{}
+.portfolio_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_item{}
+.portfolio_item h4{}
+.portfolio_item p{}
+.portfolio_card{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.portfolio_card img{
+    width: 100%;
+height: 100%;
+position: absolute;
+}
+.card_icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    text-align: center;
+    border: 2px double black;
+}
+.portfolio_card i{
+background-color: #fff;
+color: black;
+padding: 8px 20px;
+
+}
+.portfolio_card:hover .card_icon{
+    top: 45%;
+    transition: 2s;
+}
